@@ -3,7 +3,7 @@ package enc
 import (
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 func outerRun(t *testing.T, xr *[576]float64, xmin *[39]float64, budget int) (gc *granuleCoding, iters int) {

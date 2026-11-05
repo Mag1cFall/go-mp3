@@ -7,7 +7,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // sha256U16 hashes uint16s as 2-byte little-endian words, the bit-reversal

@@ -1,6 +1,6 @@
-module github.com/tphakala/go-mp3
+module github.com/Mag1cFall/go-mp3
 
-go 1.26
+go 1.27
 
 require github.com/quasilyte/go-ruleguard/dsl v0.3.23
 

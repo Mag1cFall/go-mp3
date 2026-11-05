@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tphakala/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
 )
 
 // FrameSize is the number of samples per channel consumed by one

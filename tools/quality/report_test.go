@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/quality"
+	"github.com/Mag1cFall/go-mp3/internal/quality"
 )
 
 // mkResult builds one encoder's result. mos is NaN for a case the external

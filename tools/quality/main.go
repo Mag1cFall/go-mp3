@@ -18,8 +18,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tphakala/go-mp3/internal/enc"
-	"github.com/tphakala/go-mp3/internal/quality"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/quality"
 )
 
 // Exit codes: success is 0, a run where some case failed is 1, setup errors

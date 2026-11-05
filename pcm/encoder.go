@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // ErrEncoderClosed is returned by Encoder.Write after Close, mirroring

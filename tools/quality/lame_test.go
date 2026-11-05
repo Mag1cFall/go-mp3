@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
-	"github.com/tphakala/go-mp3/internal/quality"
+	mp3 "github.com/Mag1cFall/go-mp3"
+	"github.com/Mag1cFall/go-mp3/internal/quality"
 )
 
 // requireLame skips (or, under MP3_REQUIRE_LAME=1, fails) when the lame

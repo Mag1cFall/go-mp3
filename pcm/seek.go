@@ -6,7 +6,7 @@ import (
 	"io"
 	"math"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // ErrSeekUnsupported is returned by SeekToSample when the source does not

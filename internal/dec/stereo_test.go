@@ -7,7 +7,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
 )
 
 // TestStereoTablesMatchOracle asserts the two ported const tables (gPan,

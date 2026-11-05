@@ -19,9 +19,9 @@ import (
 	"strings"
 	"time"
 
-	mp3 "github.com/tphakala/go-mp3"
-	"github.com/tphakala/go-mp3/internal/quality"
-	"github.com/tphakala/go-mp3/pcm"
+	mp3 "github.com/Mag1cFall/go-mp3"
+	"github.com/Mag1cFall/go-mp3/internal/quality"
+	"github.com/Mag1cFall/go-mp3/pcm"
 )
 
 // cmdTimeout bounds every external binary invocation.

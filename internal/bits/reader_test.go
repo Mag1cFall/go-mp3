@@ -3,7 +3,7 @@ package bits_test
 import (
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
 )
 
 func TestReaderBits(t *testing.T) {

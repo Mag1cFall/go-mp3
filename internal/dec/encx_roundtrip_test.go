@@ -18,9 +18,9 @@ import (
 	"slices"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
-	"github.com/tphakala/go-mp3/internal/enc"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	mp3 "github.com/Mag1cFall/go-mp3"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // roundTripSideInfoBytes returns the byte length of one frame's side-info

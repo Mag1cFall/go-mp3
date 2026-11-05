@@ -1,6 +1,6 @@
 package enc
 
-import "github.com/tphakala/go-mp3/internal/bits"
+import "github.com/Mag1cFall/go-mp3/internal/bits"
 
 // slenTab[scalefac_compress] = {slen1, slen2}: ISO/IEC 11172-3, 2.4.2.7.
 var slenTab = [16][2]int{

@@ -3,7 +3,7 @@ package dec
 import (
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
 )
 
 // TestHdrGetMySampleRate is a small hand-computed unit test driving the

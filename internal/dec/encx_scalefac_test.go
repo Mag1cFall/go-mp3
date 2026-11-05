@@ -4,9 +4,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
-	"github.com/tphakala/go-mp3/internal/enc"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // TestEncPretabMatchesDec: the encoder's preemphasis table (ISO 2.4.3.4.5,

@@ -7,7 +7,7 @@ import (
 	"math"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // decodeAllFloat32ViaFrameAPI decodes raw with the low-level frame API,

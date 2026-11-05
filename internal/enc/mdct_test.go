@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // TestMdctWindowKnownAnswer recomputes every MDCTWindow[i] with math.Sin and

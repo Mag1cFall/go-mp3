@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
-	"github.com/tphakala/go-mp3/internal/enc"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // validateFrames is a white-box test helper (package dec, not dec_test): it

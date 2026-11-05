@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/tphakala/go-mp3/internal/quality"
+	"github.com/Mag1cFall/go-mp3/internal/quality"
 )
 
 // Metric column names, shared by the report tables, the summary, and the

@@ -3,7 +3,7 @@ package quality
 import (
 	"math"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // Program is one deterministic test signal of the synthetic corpus. Names

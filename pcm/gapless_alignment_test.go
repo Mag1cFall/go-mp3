@@ -8,8 +8,8 @@ import (
 	"slices"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	mp3 "github.com/Mag1cFall/go-mp3"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // TestGaplessTrimAlignsToEncoderInput is the ground-truth gate for the LAME

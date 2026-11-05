@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // TestFrameHeaderKnownBytes hand-computes the packed header bytes for a

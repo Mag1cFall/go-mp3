@@ -7,7 +7,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
 )
 
 // TestL3LdexpQ2 hand-computes a couple of cases: one within a single loop

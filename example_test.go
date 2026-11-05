@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // ExampleDecoder_DecodeFrame decodes an MP3 file frame by frame with the

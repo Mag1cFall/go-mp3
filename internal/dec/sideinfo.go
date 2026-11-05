@@ -1,6 +1,6 @@
 package dec
 
-import "github.com/tphakala/go-mp3/internal/bits"
+import "github.com/Mag1cFall/go-mp3/internal/bits"
 
 // scfLongTable mirrors g_scf_long (tools/oracle/minimp3.h:486-495):
 // long-block scalefactor band-width tables, one row per

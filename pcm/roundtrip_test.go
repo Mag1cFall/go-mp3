@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // TestRoundTripSNR encodes a clean tone, decodes it, aligns by the encoder's

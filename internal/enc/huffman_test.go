@@ -7,8 +7,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // allHuffCodeTables lists every distinct transcribed ISO Table B.7

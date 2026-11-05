@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // bigLn2 recomputes ln 2 exactly as the offline table generator does: the

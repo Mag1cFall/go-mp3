@@ -3,8 +3,8 @@ package dec
 import (
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/enc"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // TestReorderShortInverse is the l3Reorder-inverse gate for

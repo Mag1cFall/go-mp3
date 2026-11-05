@@ -8,7 +8,7 @@
 // a consumer can switch codecs with the same call shape. The package name
 // deliberately collides with those; import it with an alias:
 //
-//	import mp3pcm "github.com/tphakala/go-mp3/pcm"
+//	import mp3pcm "github.com/Mag1cFall/go-mp3/pcm"
 //
 // # Decoding
 //

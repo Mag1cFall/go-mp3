@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // planarSamples builds an nch x 1152 planar float32 buffer of LCG noise at

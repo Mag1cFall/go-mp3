@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // maskingGridFrames bounds each TestEncoderMaskingContract case to a short

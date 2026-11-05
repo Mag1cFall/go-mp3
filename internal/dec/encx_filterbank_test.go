@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
 )
 
 // TestReconstructionGate is a white-box test (package dec, not dec_test): it

@@ -1,6 +1,6 @@
 package enc
 
-import "github.com/tphakala/go-mp3/internal/bits"
+import "github.com/Mag1cFall/go-mp3/internal/bits"
 
 // writeSideInfo packs the side-info block for one frame: main_data_begin
 // (9 bits, from mainDataBegin), private_bits=0, scfsi per channel (4

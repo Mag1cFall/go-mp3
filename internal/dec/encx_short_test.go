@@ -5,9 +5,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/bits"
-	"github.com/tphakala/go-mp3/internal/enc"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // Block-type values as ISO/IEC 11172-3 2.4.1.7 encodes them in side info's

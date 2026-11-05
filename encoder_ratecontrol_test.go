@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
-	mp3pcm "github.com/tphakala/go-mp3/pcm"
+	mp3 "github.com/Mag1cFall/go-mp3"
+	mp3pcm "github.com/Mag1cFall/go-mp3/pcm"
 )
 
 // rcEncode encodes n loud-noise frames of stereo 44.1kHz/128kbps under the

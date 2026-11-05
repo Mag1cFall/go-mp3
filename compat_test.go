@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	mp3 "github.com/tphakala/go-mp3"
-	"github.com/tphakala/go-mp3/internal/bits"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	mp3 "github.com/Mag1cFall/go-mp3"
+	"github.com/Mag1cFall/go-mp3/internal/bits"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // compatCmdTimeout bounds every compat-gate subprocess call, so a hung

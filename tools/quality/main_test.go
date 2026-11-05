@@ -6,7 +6,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/quality"
+	"github.com/Mag1cFall/go-mp3/internal/quality"
 )
 
 func TestDedupInts(t *testing.T) {

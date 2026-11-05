@@ -5,7 +5,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // Test-side copies of the generator's defining formulas (libm allowed in

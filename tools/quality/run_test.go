@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/quality"
+	"github.com/Mag1cFall/go-mp3/internal/quality"
 )
 
 // TestRunGridSetupError needs no external tools: a work directory that is

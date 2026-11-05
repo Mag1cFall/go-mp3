@@ -5,7 +5,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // genTone returns n samples of a sine at f Hz with the given amplitude.

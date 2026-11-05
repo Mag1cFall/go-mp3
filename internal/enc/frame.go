@@ -1,6 +1,6 @@
 package enc
 
-import "github.com/tphakala/go-mp3/internal/bits"
+import "github.com/Mag1cFall/go-mp3/internal/bits"
 
 // granuleCoding is one coded granule-channel, ready for side info + main
 // data: the scalefactor state and its side-info encoding, the exact

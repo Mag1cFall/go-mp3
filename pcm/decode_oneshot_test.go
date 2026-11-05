@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // encodeForDecode returns a CBR MP3 stream of nFramesPerCh full frames of a tone.

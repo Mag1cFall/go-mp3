@@ -80,11 +80,13 @@ are all complete.
   bit-exact against the committed goldens on amd64 and arm64, unless the PR is
   an explicit quality-tuning PR, which re-freezes the goldens on purpose and
   carries a before/after `task quality` summary in its description.
-- SIMD kernels (currently the region-cost reduction `subMinReduce` in
-  `internal/enc`, an AVX2 kernel plus a NEON kernel with a pure-Go reference)
-  are gated by the `noasm` build tag: the default build links the SIMD path,
-  `-tags noasm` compiles the pure-Go dispatcher with no assembly and no
-  `golang.org/x/sys/cpu` import. mp3-specific kernels live in this repo; the
+- SIMD kernels (`rangecost_kernel_*`, `quantize_kernel_*`,
+  `filterbank_kernel_*`, `mdct_kernel_*`, `fft_kernel_*`, `psymodel_kernel_*`
+  and `prefixcost_kernel_*` in `internal/enc`, each an AVX2 kernel plus a NEON
+  kernel with a pure-Go reference) are gated by the `noasm` build tag: the
+  default build links the SIMD path, `-tags noasm` compiles the pure-Go
+  dispatcher with no assembly and no `golang.org/x/sys/cpu` import.
+  mp3-specific kernels live in this repo; the
   `github.com/tphakala/simd` library is reserved for generic primitives and is
   not a dependency. The goldens must stay bit-exact with AND without the tag on
   amd64 and arm64 (CI runs a `Test (noasm fallback)` job on both arches), and
@@ -106,12 +108,12 @@ are all complete.
   FMA instruction, so fusion bugs are invisible there and only the arm64
   differential (CI) catches them. Match C double-promotion and upstream
   operation order.
-- Gotcha: `internal/enc/huffman.go` `chooseRegions`' `rcCost`/`rcSeen` memo
-  arrays MUST stay `[40][40]`; do NOT shrink them. `chooseRegions` is reachable
-  with `lay.nBands` up to 39 (a `blockLong`-typed granule over a short layout,
-  as in `TestOuterLoopShortConverges`), so any smaller dimension truncates the
-  memo and panics. The "a,b <= 22" comment holds only for the production
-  long-block path.
+- `internal/enc/huffman.go` `chooseRegions`' `tail`/`tailSet` memo stays
+  `[40]`. It is indexed by the region boundary `c` and, like `pb`, sized for
+  every band boundary: `c <= lay.nBands`, and `lay.nBands` reaches 39 for a
+  `blockLong`-typed granule over a short layout (as in
+  `TestOuterLoopShortConverges`). The loop bounds `r0 <= 15` and `r1 <= 7` keep
+  `c = r0+r1+2` within 24, and the production long-block path within [2, 22].
 
 ## Next work
 

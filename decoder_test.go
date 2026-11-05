@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // sine48m128Fixture is a 48 kHz mono, 128 kbps CBR fixture: 86 frames of

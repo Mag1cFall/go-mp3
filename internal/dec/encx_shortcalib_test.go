@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/enc"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // shortCalibFrames/shortCalibClickFrame define the tone+click program

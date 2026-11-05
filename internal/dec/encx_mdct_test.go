@@ -14,8 +14,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/enc"
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/enc"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // ulp32Distance walks the float32 sequence from a towards b with

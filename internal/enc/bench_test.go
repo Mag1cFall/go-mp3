@@ -3,7 +3,7 @@ package enc
 import (
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // BenchmarkEscalationFrame measures per-frame encode wall time on the

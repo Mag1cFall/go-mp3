@@ -3,7 +3,7 @@ package mp3
 import (
 	"errors"
 
-	"github.com/tphakala/go-mp3/internal/dec"
+	"github.com/Mag1cFall/go-mp3/internal/dec"
 )
 
 // Sentinel errors returned by this package's decoding functions.

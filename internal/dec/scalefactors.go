@@ -1,6 +1,6 @@
 package dec
 
-import "github.com/tphakala/go-mp3/internal/bits"
+import "github.com/Mag1cFall/go-mp3/internal/bits"
 
 // scfPartitionsTable mirrors g_scf_partitions (tools/oracle/minimp3.h:656-660).
 var scfPartitionsTable = [3][28]uint8{

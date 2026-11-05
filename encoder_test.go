@@ -8,9 +8,9 @@ import (
 	"math"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
-	"github.com/tphakala/go-mp3/internal/testsignal"
-	mp3pcm "github.com/tphakala/go-mp3/pcm"
+	mp3 "github.com/Mag1cFall/go-mp3"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
+	mp3pcm "github.com/Mag1cFall/go-mp3/pcm"
 )
 
 // planarNoise builds an nch x n planar float32 buffer of LCG noise scaled

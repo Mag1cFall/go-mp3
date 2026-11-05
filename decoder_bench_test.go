@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // benchFixtures spans the decoder's cost drivers: broadband stereo (the

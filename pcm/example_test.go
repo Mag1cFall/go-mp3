@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	mp3pcm "github.com/tphakala/go-mp3/pcm"
+	mp3pcm "github.com/Mag1cFall/go-mp3/pcm"
 )
 
 func ExampleEncodeInterleaved() {

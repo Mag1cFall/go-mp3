@@ -3,7 +3,7 @@ package enc
 import (
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // codeGranuleLinear is a verbatim copy of the ORIGINAL codeGranule inner rate

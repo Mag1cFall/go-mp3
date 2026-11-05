@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/quality"
+	"github.com/Mag1cFall/go-mp3/internal/quality"
 )
 
 // requireFFmpeg skips (or, under MP3_REQUIRE_FFMPEG=1, fails) when ffmpeg is

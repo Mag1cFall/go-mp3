@@ -3,7 +3,7 @@ package pcm
 import (
 	"fmt"
 
-	mp3 "github.com/tphakala/go-mp3"
+	mp3 "github.com/Mag1cFall/go-mp3"
 )
 
 // Config controls the pcm encoder output. It is a flat struct mirroring the

@@ -5,7 +5,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/tphakala/go-mp3/internal/testsignal"
+	"github.com/Mag1cFall/go-mp3/internal/testsignal"
 )
 
 // safeLog is math.Log with correct subnormal handling. go1.26.5
